@@ -1,0 +1,21 @@
+{
+  "name": "eslint-markdown-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src README.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "~4.19.0",
+    "@typescript-eslint/parser": "~4.19.0",
+    "eslint": "^7.15.0"
+  },
+  "devDependencies": {
+    "typescript": "~4.2.0",
+    "eslint-plugin-markdown": "~2.2.1"
+  }
+}
